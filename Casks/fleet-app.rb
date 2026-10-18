@@ -7,7 +7,7 @@ cask "fleet-app" do
   desc "Native macOS manager for parallel Claude Code agents, tmux-backed"
   homepage "https://fleetapp.dev"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on formula: "tmux"
   depends_on formula: "jq"
 
