@@ -1,6 +1,6 @@
 cask "fleet-app" do
-  version "1.0.2"
-  sha256 "fbb4d60f7378380a99efe0ea4a4a320d917e8f173b4d6617371260ffff1eb8c0"
+  version "1.1.0"
+  sha256 "a41268f7f35f08ab765efc7c778aa911631f4039b345f0f7222569f319e5ac5a"
 
   url "https://github.com/DavidKras95/fleet/releases/download/v#{version}/Fleet-v#{version}.zip"
   name "Fleet"
@@ -19,6 +19,7 @@ cask "fleet-app" do
 
   zap trash: [
     "~/.claude/hooks/agent-tmux-status.sh",
+    "~/.config/fleet",
     "~/Library/Preferences/com.davidkr.fleet.plist",
   ]
 end
