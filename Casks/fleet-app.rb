@@ -1,6 +1,6 @@
 cask "fleet-app" do
-  version "1.4.0"
-  sha256 "e7d4579c60be559cd6333e4df8ba81b690b476ca0cc9580e6e7e38052744db51"
+  version "1.5.0"
+  sha256 "cb385def9187f075abf332b3583dddd12600797260028771fcbcea237c8fb151"
 
   url "https://github.com/fleetapp-dev/fleet/releases/download/v#{version}/Fleet-v#{version}.zip"
   name "Fleet"
